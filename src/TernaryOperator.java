@@ -11,6 +11,10 @@ public class TernaryOperator {
         }*/
 
         String result = age >= 18 ? "Adult":"Minor";
-        System.out.println(result);
+        System.out.println("Adult or Minor:" +result);
+
+        int num = 10;
+        String result1 = num % 2 == 0 ? "Even" : "Odd";
+        System.out.println("Even or Odd:" + result1);
     }
 }
