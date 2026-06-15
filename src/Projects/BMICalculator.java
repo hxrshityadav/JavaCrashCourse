@@ -35,6 +35,8 @@ public class BMICalculator {
         System.out.println("BMI       :" + bmiRounded);
         System.out.println("Category  :" + category);
 
+
+
         sc.close();
     }
 }
