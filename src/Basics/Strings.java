@@ -1,3 +1,5 @@
+package Basics;
+
 public class Strings {
     public static void main(String[] args){
 
@@ -35,7 +37,7 @@ public class Strings {
         for(String lang : arr){
             System.out.println(lang);
         }
-        System.out.println(a.equals(b)); // Correct way to compare Strings
+        System.out.println(a.equals(b)); // Correct way to compare Basics.Strings
         System.out.println(a.equalsIgnoreCase("java")); // Ignores upper/lower case
 
         System.out.println(x == y); //⭐ Interview Favorite (== -> compares addresses)
