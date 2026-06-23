@@ -14,10 +14,17 @@ public class StreamDemo2 {
         numbers.add(40);
         numbers.add(50);
 
+        // Collect filtered numbers into a new list
         List<Integer> result = numbers.stream()
                 .filter(num -> num > 20)
                 .collect(Collectors.toList());
 
-        System.out.println(result);
+        // Count filtered numbers
+        long count = numbers.stream()
+                        .filter(num -> num > 20)
+                        .count();
+
+        System.out.println("Filtered Number: " + result);
+        System.out.println("Count: " + count);
     }
 }
